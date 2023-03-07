@@ -1,0 +1,45 @@
+body {
+    background-color: #ffd166;
+    font-family: 'Lobster', cursive;
+}
+
+.pizza {
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+.small_pizza {
+  background-color: #ef476f;  
+}
+
+.medium_pizza {
+    background-color: #06d6a0;
+}
+
+.large_pizza {
+    background-color: #118ab2;
+}
+
+.contact_us {
+    background-color: #86BACB;
+}
+
+.small_pizza h3 {
+    padding-top: 2.3em;
+}
+
+.medium_pizza h3 {
+    padding-top: 1.2em;
+}
+
+@media (min-width: 960px) {
+    .pizzas {
+        display: flex;
+    }
+
+    .small_pizza, .medium_pizza, .large_pizza {
+        flex: 1;
+    }
+}
